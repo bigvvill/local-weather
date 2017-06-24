@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Current Local Weather</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link type="text/css" href="assets/weather-style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="mainContainer">
+            <div id="title">Current Local Weather</div>
+            <div class="locationContainer">
+                <div id="city"></div>
+                <div id="country"></div>
+            </div>
+            <div class="dataContainer"</div>
+                <div id="temperature"><h3>84</h3></div>
+                <div id="degreeAndUnit"></div>
+                <div id="symbol"><img class="currentImage" src="assets/01.png"></div>
+                <div id="conditions"><h3>Sunny</h3></div>
+                <div id="humidity">45%</div>
+                <div id="winds">SW 13 miles/hour</div>
+                <div id="pressure">1018 mb</div>
+                <div id="sunrise">6:15:50 AM</div>
+                <div id="sunset">9:04:04 PM</div>
+                <button id="units" class="btn btn-default">Use Metric</button>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+        <script src="assets/weather-script.js"></script>
+    </body>
+</html>
